@@ -1,7 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { useTranslation } from 'react-i18next'; // Import translation hook
-
+import i18n from './i18next/i18n'; // Import the i18n configuration
+import LiveChat from './Components/LiveChat';
 import Header from './Components/Header';
 import Slideshow from './Components/Slideshow';
 import ProductCarousel from './Components/ProductCarousel'; 
@@ -21,7 +22,6 @@ import HeroSection from './Components/HomePageComponent/HeroSection';
 import Testimonials from './Components/HomePageComponent/Testimonials';
 import WhyChooseUs from './Components/HomePageComponent/WhyChooseUs';
 import LanguageSwitcher from './Components/LanguageSwitcher'; // Import the Language Switcher
-
 import { useParams } from 'react-router-dom';
 
 // Sample products data
@@ -170,23 +170,10 @@ function ProductDetailsWrapper({ products }) {
 }
 
 function App() {
-  const { t, i18n } = useTranslation(); // Hook for translation and language switching
-
-  const changeLanguage = (lang) => {
-    i18n.changeLanguage(lang); // Change the language
-  };
-
   return (
     <Router>
       <Header />
-      <LanguageSwitcher />
-      {/* Language Switcher */}
-      <div className="language-switcher text-center my-4">
-        <span>{t('select_language')}:</span>
-        <button onClick={() => changeLanguage('en')} className="mx-2">English</button>
-        <button onClick={() => changeLanguage('fr')} className="mx-2">Français</button>
-        <button onClick={() => changeLanguage('es')} className="mx-2">Español</button>
-      </div>
+      <LiveChat /> 
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<ProductGrid products={products} />} />
