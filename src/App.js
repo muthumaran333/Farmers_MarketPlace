@@ -106,7 +106,7 @@ function App() {
     <Router>
       <Header /> {/* Always show the Header */}
       <Routes>
-        <Route path="/" element={<Home />} /> {/* Home page with slideshow and products */}
+        <Route path="/Farmers_MarketPlace" element={<Home />} /> {/* Home page with slideshow and products */}
         <Route path="/products" element={<ProductGrid products={productsData} />} />
         <Route path="/signin" element={<SignIn />} /> {/* SignIn page */}
         <Route path="/createaccount" element={<CreateAccount />} /> {/* Create Account page */}
