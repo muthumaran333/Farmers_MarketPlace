@@ -19,6 +19,8 @@ const Header = () => {
           <li><Link to="/createaccount" className="text-white">Create Account</Link></li>
           <li><Link to="/about" className="text-white">About Us</Link></li> {/* About Us link */}
           <li><a href="#offers" className="text-white">Offers</a></li>
+          {/* <li><Link to="/Farmers_MarketPlace"  className="text-white">FarmersMarketPlace</Link></li> About Us link */}
+
           <li><Link to="/profile" className="text-white">Profile</Link></li> {/* Link to Profile Page */}
 
           <li><Link to="/" className="text-white">Home</Link></li>
@@ -39,6 +41,7 @@ const Header = () => {
             <li><Link to="/signin" className="text-white text-xl" onClick={toggleMenu}>Sign In</Link></li> {/* Fixed SignIn Link */}
             <li><Link to="/createaccount" className="text-white text-xl" onClick={toggleMenu}>Create Account</Link></li>
             <li><Link to="/about" className="text-white text-xl" onClick={toggleMenu}>About Us</Link></li> {/* About Us link */}
+            {/* <li><Link to="/Farmers_MarketPlace" className="text-white text-xl" onClick={toggleMenu}>FarmersMarketPlace</Link></li> About Us link */}
 
             <li><Link to="/profile" className="text-white text-xl" onClick={toggleMenu}>Profile</Link></li> {/* Link to Profile Page */}
 
