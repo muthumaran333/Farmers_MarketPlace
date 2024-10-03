@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Farmers_MarketPlace/static/css/main.bb415e3a.css",
+    "main.js": "/Farmers_MarketPlace/static/js/main.8935a017.js",
+    "static/js/453.25549de1.chunk.js": "/Farmers_MarketPlace/static/js/453.25549de1.chunk.js",
+    "static/media/img2.jpg": "/Farmers_MarketPlace/static/media/img2.41f9fc23e4f92797b20e.jpg",
+    "static/media/img3.jpg": "/Farmers_MarketPlace/static/media/img3.e7eba0bc53f6ba1ad98e.jpg",
+    "static/media/img1.jpg": "/Farmers_MarketPlace/static/media/img1.ddaf866a9ff3a8bd8d85.jpg",
+    "static/media/hero-banner.jfif": "/Farmers_MarketPlace/static/media/hero-banner.d2740652a760ee159791.jfif",
+    "static/media/img3.jfif": "/Farmers_MarketPlace/static/media/img3.2ad3c878499f0e05ac55.jfif",
+    "static/media/img1.jfif": "/Farmers_MarketPlace/static/media/img1.861957503658e0bfc665.jfif",
+    "static/media/img2.jfif": "/Farmers_MarketPlace/static/media/img2.1de04dc3085d1c9b3838.jfif",
+    "index.html": "/Farmers_MarketPlace/index.html",
+    "main.bb415e3a.css.map": "/Farmers_MarketPlace/static/css/main.bb415e3a.css.map",
+    "main.8935a017.js.map": "/Farmers_MarketPlace/static/js/main.8935a017.js.map",
+    "453.25549de1.chunk.js.map": "/Farmers_MarketPlace/static/js/453.25549de1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bb415e3a.css",
+    "static/js/main.8935a017.js"
+  ]
+}
