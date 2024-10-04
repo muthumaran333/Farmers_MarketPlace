@@ -9,6 +9,11 @@ import ProductCarousel from './Components/ProductCarousel';
 import img1 from './Images/products_img/img1.jfif'; 
 import img2 from './Images/products_img/img2.jfif'; 
 import img3 from './Images/products_img/img3.jfif'; 
+import apple from './Images/products_img/apple.jfif'; 
+import brocolii from './Images/products_img/brocolii.jfif'; 
+import Cabbage from './Images/products_img/Cabbage.jfif'; 
+import carrort from './Images/products_img/carrort_img.jfif'; 
+import Cucumber from './Images/products_img/Cucumbers.jfif'; 
 import ProductGrid from './Components/ProductGrid';
 import Footer from './Components/Footer';
 import SignIn from './Components/SignIn';
@@ -92,6 +97,66 @@ const products = [
     title: "Product 6",
     description: "Description for product 6.",
     image: img3,
+    price: 7.0,
+    reviews: [
+      { id: 1, text: "Very well made.", rating: 5 },
+      { id: 2, text: "Would buy again.", rating: 5 },
+      { id: 3, text: "A bit overpriced for what you get.", rating: 3 },
+    ],
+  },
+  {
+    id: 7,
+    title: "Product 6",
+    description: "Description for product 6.",
+    image: apple,
+    price: 7.0,
+    reviews: [
+      { id: 1, text: "Very well made.", rating: 5 },
+      { id: 2, text: "Would buy again.", rating: 5 },
+      { id: 3, text: "A bit overpriced for what you get.", rating: 3 },
+    ],
+  },
+  {
+    id: 8,
+    title: "Product 6",
+    description: "Description for product 6.",
+    image: brocolii,
+    price: 7.0,
+    reviews: [
+      { id: 1, text: "Very well made.", rating: 5 },
+      { id: 2, text: "Would buy again.", rating: 5 },
+      { id: 3, text: "A bit overpriced for what you get.", rating: 3 },
+    ],
+  },
+  {
+    id: 9,
+    title: "Product 6",
+    description: "Description for product 6.",
+    image: Cabbage,
+    price: 7.0,
+    reviews: [
+      { id: 1, text: "Very well made.", rating: 5 },
+      { id: 2, text: "Would buy again.", rating: 5 },
+      { id: 3, text: "A bit overpriced for what you get.", rating: 3 },
+    ],
+  },
+  {
+    id: 10,
+    title: "Product 6",
+    description: "Description for product 6.",
+    image: Cucumber,
+    price: 7.0,
+    reviews: [
+      { id: 1, text: "Very well made.", rating: 5 },
+      { id: 2, text: "Would buy again.", rating: 5 },
+      { id: 3, text: "A bit overpriced for what you get.", rating: 3 },
+    ],
+  },
+  {
+    id: 11,
+    title: "Product 6",
+    description: "Description for product 6.",
+    image: carrort,
     price: 7.0,
     reviews: [
       { id: 1, text: "Very well made.", rating: 5 },
