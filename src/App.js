@@ -14,6 +14,9 @@ import brocolii from './Images/products_img/brocolii.jfif';
 import Cabbage from './Images/products_img/Cabbage.jfif'; 
 import carrort from './Images/products_img/carrort_img.jfif'; 
 import Cucumber from './Images/products_img/Cucumbers.jfif'; 
+import spenesh from './Images/products_img/spenesh.jfif';
+import tomato from './Images/products_img/tomato.jfif';
+import Pumpkins from './Images/products_img/Pumpkins.jfif';
 import ProductGrid from './Components/ProductGrid';
 import Footer from './Components/Footer';
 import SignIn from './Components/SignIn';
@@ -164,6 +167,42 @@ const products = [
       { id: 3, text: "A bit overpriced for what you get.", rating: 3 },
     ],
   },
+  {
+    id: 12,
+    title: "Product 6",
+    description: "Description for product 6.",
+    image: spenesh,
+    price: 7.0,
+    reviews: [
+      { id: 1, text: "Very well made.", rating: 5 },
+      { id: 2, text: "Would buy again.", rating: 5 },
+      { id: 3, text: "A bit overpriced for what you get.", rating: 3 },
+    ],
+  },
+  {
+    id: 13,
+    title: "Product 6",
+    description: "Description for product 6.",
+    image: tomato,
+    price: 7.0,
+    reviews: [
+      { id: 1, text: "Very well made.", rating: 5 },
+      { id: 2, text: "Would buy again.", rating: 5 },
+      { id: 3, text: "A bit overpriced for what you get.", rating: 3 },
+    ],
+  },
+  {
+    id: 14,
+    title: "Product 6",
+    description: "Description for product 6.",
+    image: Pumpkins,
+    price: 7.0,
+    reviews: [
+      { id: 1, text: "Very well made.", rating: 5 },
+      { id: 2, text: "Would buy again.", rating: 5 },
+      { id: 3, text: "A bit overpriced for what you get.", rating: 3 },
+    ],
+  },
 ];
 
 // Example user object for both customer and seller
@@ -204,7 +243,7 @@ function Home() {
 
       <div className="container mx-auto py-8">
         <h2 className="text-4xl font-bold mb-4 text-center">
-          {t('our_products')} {/* Translated "Our Products" */}
+          Our Products {/* Translated "Our Products" */}
         </h2>
 
         {loading ? (
